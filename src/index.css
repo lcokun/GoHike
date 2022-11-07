@@ -1,0 +1,130 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  text-align: center;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp4853034.jpg&f=1&nofb=1&ipt=ee1ec22bac7150628b179d525b473d26f988a786e96858fb1733d9c1aa1ec39c&ipo=images');
+  background-size: cover;
+  overflow: scroll;
+}
+
+/* css for navigation bar */
+ul {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: snow;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* css for card container */
+.cont {
+  display: flex;
+  justify-content: center;
+}
+
+.card-cont {
+  background-color: snow;
+  width: 500px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 15px;
+  flex-wrap: nowrap;
+}
+
+/* image css */
+.card-image {
+  background-color: rebeccapurple;
+  height: 320px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+/* image sources */
+.img-1 {
+  background-image: url('https://dynaimage.cdn.cnn.com/cnn/q_auto,w_634,c_fill,g_auto,h_357,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190311182037-best-hiking-trails-appalachian-restricted.jpg');
+}
+
+.img-2 {
+  background-image: url('https://dynaimage.cdn.cnn.com/cnn/q_auto,w_634,c_fill,g_auto,h_357,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190311144104-best-hiking-trails-basho-wayfarer.jpg');
+}
+
+.img-3 {
+  background-image: url('https://dynaimage.cdn.cnn.com/cnn/q_auto,w_634,c_fill,g_auto,h_357,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190312124413-best-hiking-trails-jebel-toubkal-range-restricted.jpg');
+}
+
+.card-cont p {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.box {
+  padding-top: 10px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* input styling */
+input {
+  padding: 10px;
+  border: 20px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+/* button styling */
+button {
+  padding: 10px;
+  border: 20px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+/* text styling */
+#display {
+  font-size: 20px;
+  line-height: 2.0;
+}
+
+/* css for box showing results */
+.box p {
+  background-color: lightskyblue;
+  border: 20px 20px blue;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 20%;
+  margin: auto;
+  padding: auto;
+}

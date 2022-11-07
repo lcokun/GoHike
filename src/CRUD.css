@@ -1,0 +1,60 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+      Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp4853034.jpg&f=1&nofb=1&ipt=ee1ec22bac7150628b179d525b473d26f988a786e96858fb1733d9c1aa1ec39c&ipo=images');
+    background-size: cover;
+    overflow: scroll;
+  }
+  
+  /* css for navigation bar */
+  ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: snow;
+    color: black;
+  }
+
+  /* css for form box */
+.form-group {
+    border-radius: 20px;
+    border: 20px 20px;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: auto;
+}
+
+/* css for button */
+.mainWrapper button {
+  padding: 10px;
+  border: 20px 20px;
+  border-radius: 20px;
+  border: none;
+}

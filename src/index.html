@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="photon.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <div>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="CRUD.html">Hike Planner</a></li>
+      </ul>
+    </div>
+    
+    <br>
+    <br>
+
+    <h1>Famous Hiking Spots!!</h1>
+    <hr>
+
+    <section class="cont"> <!-- Container to hold all image cards -->
+      <div class="card-cont"> <!-- Image container -->
+          <div class="card-image img-1"></div>
+          <p>Appalachian Trail, USA</p>
+      </div>
+      <div class="card-cont">
+        <div class="card-image img-2"></div>
+        <p>The Basho Wayfarer, Japan</p>
+      </div>
+      <div class="card-cont">
+        <div class="card-image img-3"></div>
+        <p>Mount Toubkal, Morocco</p>
+    </div>
+    </section>
+    
+    <h1>Weather Forecast For Hiking!</h1>
+    <hr>
+
+    <!-- container for fetching API -->
+    <div class="box">
+        <input type="text", placeholder="Enter City", id="city_input">
+        <button onclick="buttonClicked()">Search</button>
+        <br><br>
+        
+        <p id="display"></p>
+    </div>
+
+    <!-- Call functions from main.js file -->
+    <script src="main.js"></script>
+</body>
+  </body>
+</html>
