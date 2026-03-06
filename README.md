@@ -11,10 +11,10 @@
 
   \## Setup
 
-  \```bash
+  ```bash
   npm install
   npm start
-  \```
+  ```
 
   Built during diploma studies.
 
