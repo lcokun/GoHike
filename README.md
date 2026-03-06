@@ -1,15 +1,15 @@
 ---
 
-  \# GoHike
+  # GoHike
 
   An Electron desktop application with CRUD functionality.
 
-  \## Tech Stack
-  \- JavaScript, HTML, CSS
-  \- Electron (via Electron Forge)
-  \- Node.js
+  ## Tech Stack
+  - JavaScript, HTML, CSS
+  - Electron (via Electron Forge)
+  - Node.js
 
-  \## Setup
+  ## Setup
 
   ```bash
   npm install
